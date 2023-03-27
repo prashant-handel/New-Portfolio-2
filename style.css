@@ -661,6 +661,7 @@ footer {
     margin-top: 50px;
     width: auto;
     font-size: small;
+    margin: auto;
   }
   div a svg {
     margin: auto;
@@ -682,18 +683,17 @@ footer {
   }
   .projectBlock,
   .blogBlock {
-    font-size: large;
+    font-size: x-large;
     line-height: 1.5em;
     display: block;
     width: 200px;
-    height: 150px;
+    height: 220px;
     border-top: 1px solid rgba(0, 0, 0, 0.237);
   }
   .projectsContainer,
   .blogsContainer {
     display: flex;
-    gap: 1vh;
-    justify-content: center;
+    justify-content: space-evenly;
   }
   .contactCol1, .contactCol2 {
     display: block;
@@ -747,6 +747,13 @@ footer {
   .projectsHeading{
     margin-bottom: 0.5rem;
   }
+  .aboutMeHead,
+.projectsHeading,
+.blogsHeading,
+.contactHeading {
+  font-size: 260%;
+  margin: 1em 0em 1rem 0em;
+}
 }
 
 @media (min-width: 400px) and (max-width: 900px) {
