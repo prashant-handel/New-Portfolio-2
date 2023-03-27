@@ -768,4 +768,11 @@ footer {
   .hamburgerNav{
     height: 130vh;
   }
+  .aboutMeHead,
+.projectsHeading,
+.blogsHeading,
+.contactHeading {
+  font-size: 200%;
+  margin: 1em 0em 1rem 0em;
+}
 }
