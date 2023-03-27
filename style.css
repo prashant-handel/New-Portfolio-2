@@ -244,10 +244,7 @@ a {
   margin-left: 1rem;
 }
 
-.aboutMeHead,
-.projectsHeading,
-.blogsHeading,
-.contactHeading {
+.Head {
   display: flex;
   font-size: 500%;
   justify-content: center;
@@ -610,13 +607,7 @@ footer {
   .scrollDown {
     display: none;
   }
-  .aboutMeHead {
-    font-size: 200%;
-    margin: 4rem 0 2rem;
-  }
-  .projectsHeading,
-  .blogsHeading,
-  .contactHeading {
+  .Head {
     font-size: 200%;
     margin: 5rem 0 2rem 0;
   }
@@ -744,10 +735,7 @@ footer {
   .projectsHeading{
     margin-bottom: 0.5rem;
   }
-  .aboutMeHead,
-.projectsHeading,
-.blogsHeading,
-.contactHeading {
+  .Head {
   font-size: 260%;
   margin: 1em 0em 1rem 0em;
 }
@@ -768,10 +756,7 @@ footer {
   .hamburgerNav{
     height: 130vh;
   }
-  .aboutMeHead,
-.projectsHeading,
-.blogsHeading,
-.contactHeading {
+  .Head {
   font-size: 200%;
   margin: 1em 0em 1rem 0em;
 }
