@@ -760,4 +760,7 @@ footer {
   font-size: 200%;
   margin: 1em 0em 1rem 0em;
 }
+.location, .locationContent{
+  display: none;
+}
 }
