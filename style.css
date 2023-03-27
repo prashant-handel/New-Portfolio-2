@@ -761,4 +761,10 @@ footer {
   .blogBlock {
     height: 250px;
   }
+  footer{
+    width: 110vw;
+  }
+  .hamburgerNav{
+    height: 110vh;
+  }
 }
