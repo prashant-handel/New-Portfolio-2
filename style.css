@@ -516,7 +516,7 @@ footer {
     position: fixed;
     top: 0;
     left: 0;
-    height: 100vh;
+    height: 130vh;
     width: 0;
     background-color: #6f06e6f3;
     z-index: 10;
@@ -687,7 +687,7 @@ footer {
     line-height: 1.5em;
     display: block;
     width: 200px;
-    height: 220px;
+    height: auto;
     border-top: 1px solid rgba(0, 0, 0, 0.237);
   }
   .projectsContainer,
@@ -756,15 +756,16 @@ footer {
 @media (max-width: 500px) {
   .prashantlogo {
     width: 160px;
+    height: 28px;
   }
   .projectBlock,
   .blogBlock {
-    height: 250px;
+    height: min-content;
   }
   footer{
     width: 110vw;
   }
   .hamburgerNav{
-    height: 110vh;
+    height: 130vh;
   }
 }
