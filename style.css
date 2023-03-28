@@ -13,6 +13,11 @@ body {
   display: none;
 }
 
+.upScroll:hover {
+  background-color: #7006E6;
+  fill: white;
+}
+
 .prashantlogo,
 .footerLogo {
   width: 25vw;
@@ -50,7 +55,7 @@ nav li,
 
 .navLink:hover {
   color: blueviolet;
-  border-bottom: 2px solid #7006e6;
+  border-bottom: 2px solid #6E57E0;
   cursor: pointer;
 }
 
@@ -112,18 +117,18 @@ nav {
 .vercelImg {
   width: 50px;
   height: 50px;
-  fill: #7006e6;
+  fill: #6E57E0;
 }
 
 .hashnodeImg {
   width: 50px;
   height: 50px;
-  fill: #7006e6;
+  fill: #6E57E0;
 }
 
 div a svg {
-  width: 35px;
-  height: 35px;
+  width: 25px;
+  height: 25px;
 }
 
 .welcomeText {
@@ -148,7 +153,7 @@ div a svg {
 
 .contactMe button {
   cursor: pointer;
-  background-color: #7006e6;
+  background-color: #6E57E0;
   color: white;
   padding: 1vh 1vw;
   border-radius: 10px;
@@ -158,7 +163,7 @@ div a svg {
 }
 
 .contactMe button:hover {
-  background-color: #6521bd;
+  background-color: #7006E6;
 }
 
 .contactMe button svg {
@@ -169,13 +174,13 @@ div a svg {
 
 #mouseIcon {
   width: 2vw;
-  fill: #7006e6;
+  fill: #6E57E0;
   margin: -7px 15px;
   margin-left: 0;
 }
 
 .scrollDown button {
-  color: #7006e6;
+  color: #6E57E0;
   font-size: larger;
   margin: 5vh 18vw;
   border: none;
@@ -185,7 +190,7 @@ div a svg {
 
 #downArrow {
   width: 1vw;
-  fill: #7006e6;
+  fill: #6E57E0;
   margin: 0px 15px;
 }
 
@@ -193,13 +198,14 @@ div a svg {
   cursor: pointer;
   transform: translate(0, 0.5vh);
   transition-duration: 0.3s;
+  color: #7006E6;
 }
 
 .picture1 {
   height: 50vh;
   width: 18vw;
   display: flex;
-  border: 2px solid #7006e6;
+  border: 2px solid #6E57E0;
   border-radius: 10px;
 }
 
@@ -210,7 +216,7 @@ div a svg {
 
 .aboutText {
   font-size: x-large;
-  width: 40vw;
+  width: 70vw;
   margin: 20px auto;
   text-align: justify;
   height: auto;
@@ -218,15 +224,17 @@ div a svg {
 
 .aboutText ul li {
   margin-top: 15px;
+  list-style-type: circle;
+  text-align: justify;
 }
 
 .downloadResume {
-  margin: 7vh 10vw 0;
+  margin: 30px auto;
   padding: 1%;
-  background-color: #7006e6;
+  background-color: #6E57E0;
   border-radius: 10px;
   color: white;
-  font-size: x-large;
+  font-size: large;
   display: flex;
   align-items: center;
 }
@@ -237,7 +245,7 @@ a {
 
 .downloadResume:hover {
   cursor: pointer;
-  background-color: #6521bd;
+  background-color: #7006E6;
 }
 
 .downloadIcon {
@@ -246,7 +254,7 @@ a {
 
 .Head {
   display: flex;
-  font-size: 500%;
+  font-size: 300%;
   justify-content: center;
   margin: 2em 0em 3rem 0em;
 }
@@ -266,10 +274,10 @@ a {
   display: block;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.35);
   width: 200px;
-  height: 370px;
+  height: 330px;
   padding: 1rem 1rem;
   text-align: center;
-  color: #7006e6;
+  color: #6E57E0;
   font-size: xx-large;
   line-height: 1.5em;
   margin-top: 20px;
@@ -288,7 +296,7 @@ a {
 
 footer {
   margin-top: 10vh;
-  background-color: #7006e6;
+  background-color: #6E57E0;
   padding: 2vh 2vw;
 }
 
@@ -343,7 +351,7 @@ footer {
 
 .eMail svg {
   width: 4vw;
-  fill: #7006e6;
+  fill: #6E57E0;
   margin-right: 1vw;
 }
 
@@ -378,7 +386,7 @@ footer {
   right: 100px;
   cursor: pointer;
   width: 1vw;
-  fill: #7006e6;
+  fill: #6E57E0;
   border-radius: 10px;
 }
 
@@ -391,7 +399,7 @@ footer {
 }
 .location i {
   width: 4vw;
-  color: #7006e6;
+  color: #6E57E0;
 }
 
 .location {
@@ -435,7 +443,7 @@ footer {
   width: fit-content;
   font-size: large;
   cursor: pointer;
-  background-color: #7006e6;
+  background-color: #6E57E0;
   color: white;
   margin: 5px;
   padding: 0.8em;
@@ -443,7 +451,7 @@ footer {
 }
 
 .sendMessage:hover {
-  background-color: #53298ae3;
+  background-color: #7006E6;
 }
 
 .inputMessage {
@@ -456,7 +464,7 @@ footer {
 }
 
 .picture2{
-  border: 2px solid #7006e6;
+  border: 2px solid #6E57E0;
   border-radius: 30px;
   width: min-content;
   height: min-content;
@@ -485,7 +493,7 @@ footer {
 
 .home__blob{
   width: 400px;
-  fill: #6521bd;
+  fill: #6E57E0;
 }
 
 .home__img{
@@ -515,7 +523,7 @@ footer {
     left: 0;
     height: 130vh;
     width: 0;
-    background-color: #6f06e6f3;
+    background-color: #6E57E0;
     z-index: 10;
   }
   .hamburgerList{
@@ -537,7 +545,7 @@ footer {
     display: block;
     top: 10px;
     left: 10px;
-    fill: #7006e6;
+    fill: #6E57E0;
     cursor: pointer;
     z-index: 8;
     width: 20px;
@@ -617,7 +625,7 @@ footer {
   }
   .contactMe button {
     cursor: pointer;
-    background-color: #7006e6;
+    background-color: #6E57E0;
     color: white;
     padding: 1vh 1vw;
     border-radius: 10px;
@@ -627,7 +635,7 @@ footer {
     scale: 80%;
   }
   .contactMe button:hover {
-    background-color: #6521bd;
+    background-color: #6E57E0;
   }
 
   .contactMe button svg {
@@ -649,10 +657,9 @@ footer {
     display: none;
   }
   .downloadResume {
-    margin-top: 50px;
     width: auto;
     font-size: small;
-    margin: auto;
+    margin: 30px auto;
   }
   div a svg {
     margin: auto;
@@ -736,8 +743,8 @@ footer {
     margin-bottom: 0.5rem;
   }
   .Head {
-  font-size: 260%;
-  margin: 1em 0em 1rem 0em;
+  font-size: 250%;
+  margin: 2em 0em 1rem 0em;
 }
 }
 
@@ -758,6 +765,6 @@ footer {
   }
   .Head {
   font-size: 200%;
-  margin: 1em 0em 1rem 0em;
+  margin: 2em 0em 1rem 0em;
 }
 }
