@@ -302,7 +302,7 @@
                             165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 
                             129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 
                             -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z" />
-                        <image class="home__blob-img" width="150px" x="25" y="-10" href="pic1.png" xlink:href="pic1.jpg" />
+                        <image class="home__blob-img" width="130px" x="38" y="20" href="pic3.png" xlink:href="pic1.jpg" />
                     </g>
                 </svg>
             </div>
@@ -582,18 +582,20 @@
               <div class="locationContent">Tirumala Pride, Indore</div>
             </div>
             <div class="contactCol2">
-              <form>
+              <form id="form">
                 <input
                   class="inputName input"
                   type="text"
                   name="name"
                   placeholder="Name"
+                  required
                 />
                 <input
                   class="inputEmail input"
-                  type="text"
+                  type="email"
                   name="email"
                   placeholder="Email"
+                  required
                 />
                 <textarea
                   class="inputMessage"
@@ -601,11 +603,12 @@
                   cols="30"
                   rows="5"
                   placeholder="Message"
+                  required
                 ></textarea>
+                <button id="sendMessage" class="sendMessage" type="submit">
+                  Send Message <i class="fa-solid fa-paper-plane"></i>
+                </button>
               </form>
-              <button id="sendMessage" class="sendMessage" type="submit">
-                Send Message <i class="fa-solid fa-paper-plane"></i>
-              </button>
             </div>
           </div>
         </div>
@@ -788,6 +791,7 @@
         <a href="#">© Prashant Handel. All right reserved</a>
       </div>
     </footer>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
     <script src="script.js"></script>
   </body>
 </html>

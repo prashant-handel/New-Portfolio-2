@@ -9,6 +9,11 @@ const footerLinks = document.querySelectorAll(".footerLink");
 
 const contactMeBtnEl = document.querySelector(".contactMeBtn");
 const contactMeEl = document.querySelector("#contactMe");
+const formEl = document.querySelector("#form");
+const inputEmailEl = document.querySelector(".inputEmail");
+const inputNameEl = document.querySelector(".inputName");
+const inputMessageEl = document.querySelector(".inputMessage");
+
 
 headerLinks.forEach((link) => {
   const linkIdEl = document.getElementById(link.getAttribute("data-link"));
@@ -83,3 +88,23 @@ hamburgerLinks.forEach((link) => {
     hamburgerIconEl.style.display = "block";
   });
 });
+
+
+formEl.addEventListener("submit", (e)=>{
+  e.preventDefault();
+  Email.send({
+    Host : "smtp.elasticemail.com",
+    Username : "prashanthandel2501@gmail.com",
+    Password : "B3D1023E3E777195366775AE901AC4BE30B9",
+    To : 'prashanthandel2501@gmail.com',
+    From : 'prashanthandel2501@gmail.com',
+    ReplyFrom : inputEmailEl.value,
+    Subject : "New Job Hiring Enquiry",
+    Body : `Name: ${inputNameEl.value} <br>
+            E-mail: ${inputEmailEl.value} <br>
+            Message: ${inputMessageEl.value}`
+}).then(
+  message => alert(message)
+);
+})
+
